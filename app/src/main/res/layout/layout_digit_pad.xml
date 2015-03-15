@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhntd.vault.widget.PinPadLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pin="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pad_numeric"
+    style="@style/PinPadLayoutStyle.Numeric"
+    android:background="@color/pin_pad_numeric_background_color"
+    android:columnCount="3"
+    android:rowCount="4">
+
+    <com.zhntd.vault.widget.DigitButton
+        android:id="@+id/digit_7"
+        style="@style/PinPadButtonStyle.Numeric"
+        pin:key="SEVEN"
+        android:text="@string/digit_7"/>
+
+    <com.zhntd.vault.widget.DigitButton
+        android:id="@+id/digit_8"
+        style="@style/PinPadButtonStyle.Numeric"
+        pin:key="EIGHT"
+        android:text="@string/digit_8"/>
+
+    <com.zhntd.vault.widget.DigitButton
+        android:id="@+id/digit_9"
+        style="@style/PinPadButtonStyle.Numeric"
+        pin:key="NINE"
+        android:text="@string/digit_9"/>
+
+    <com.zhntd.vault.widget.DigitButton
+        android:id="@+id/digit_4"
+        style="@style/PinPadButtonStyle.Numeric"
+        pin:key="FOUR"
+        android:text="@string/digit_4"/>
+
+    <com.zhntd.vault.widget.DigitButton
+        android:id="@+id/digit_5"
+        style="@style/PinPadButtonStyle.Numeric"
+        pin:key="FIVE"
+        android:text="@string/digit_5"/>
+
+    <com.zhntd.vault.widget.DigitButton
+        android:id="@+id/digit_6"
+        style="@style/PinPadButtonStyle.Numeric"
+        pin:key="SIX"
+        android:text="@string/digit_6"/>
+
+    <com.zhntd.vault.widget.DigitButton
+        android:id="@+id/digit_1"
+        style="@style/PinPadButtonStyle.Numeric"
+        pin:key="ONE"
+        android:text="@string/digit_1"/>
+
+    <com.zhntd.vault.widget.DigitButton
+        android:id="@+id/digit_2"
+        style="@style/PinPadButtonStyle.Numeric"
+        pin:key="TWO"
+        android:text="@string/digit_2"/>
+
+    <com.zhntd.vault.widget.DigitButton
+        android:id="@+id/digit_3"
+        style="@style/PinPadButtonStyle.Numeric"
+        pin:key="THREE"
+        android:text="@string/digit_3"/>
+
+    <ImageButton
+        android:id="@+id/backspace"
+        style="@style/PinPadButtonStyle.Numeric"
+        android:tint="@android:color/white"
+        android:src="@android:drawable/ic_input_add"/>
+
+    <com.zhntd.vault.widget.DigitButton
+        android:id="@+id/digit_0"
+        style="@style/PinPadButtonStyle.Numeric"
+        pin:key="ZERO"
+        android:text="@string/digit_0"/>
+
+    <Button
+        android:id="@+id/okay"
+        style="@style/PinPadButtonStyle.Numeric"
+        android:textSize="@dimen/text_size_large"
+        android:text="@android:string/ok"/>
+
+</com.zhntd.vault.widget.PinPadLayout>
